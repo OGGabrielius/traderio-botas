@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: traderio-botas
+    env: python
+    region: frankfurt
+    buildCommand: ""
+    startCommand: bash start.sh
+    autoDeploy: false
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: replace_with_your_token
+      - key: CHAT_ID
+        value: replace_with_your_chat_id
+      - key: DISCORD_WEBHOOK_URL
+        value: replace_with_your_webhook

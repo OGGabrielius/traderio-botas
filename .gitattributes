@@ -1,0 +1,11 @@
+# Užtikrina, kad visi tekstiniai failai turėtų Unix stiliaus LF pabaigas
+* text=auto eol=lf
+
+# Aiškiai nustatyta kai kuriems tipams:
+*.py text eol=lf
+*.sh text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.gitignore text eol=lf
+*.md text eol=lf
